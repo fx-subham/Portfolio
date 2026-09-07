@@ -6,14 +6,12 @@ function Navbar() {
     <>
       <nav className="navbar">
         <a href="#home" className="logo">
-          Sai<span>.</span>
+          My Portfolio<span>.</span>
         </a>
 
-        <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
-          ☰
-        </button>
+       
 
-        <div className={`nav-links ${menuOpen ? "active" : ""}`}>
+        <div className="nav-links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
