@@ -349,3 +349,39 @@ body {
 .info-box p {
   color: #94a3b8;
 }
+
+/* ================= SKILLS ================= */
+
+.skills-section {
+  background: #0f172a;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.skill-card {
+  background: #111827;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  border-color: #38bdf8;
+}
+
+.skill-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.skill-card p {
+  color: #94a3b8;
+  font-size: 14px;
+}
