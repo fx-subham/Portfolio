@@ -486,3 +486,152 @@ body {
   font-weight: 600;
   margin-top: 10px;
 }
+
+/* ================= CONTACT ================= */
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact-info h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  color: #94a3b8;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  background: #111827;
+  border: 1px solid #1e293b;
+  color: white;
+  border-radius: 7px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #38bdf8;
+}
+
+.contact-form button {
+  padding: 14px;
+  border: none;
+  background: #38bdf8;
+  color: #0b1120;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+  text-align: center;
+  padding: 40px 10%;
+  background: #020617;
+}
+
+.footer h2 {
+  margin-bottom: 15px;
+}
+
+.footer span {
+  color: #38bdf8;
+}
+
+.footer p {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #94a3b8;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 140px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .about-container,
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .section {
+    padding: 70px 7%;
+  }
+
+  .hero {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .image-box {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .skills-container,
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}

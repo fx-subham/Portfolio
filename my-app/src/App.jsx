@@ -9,6 +9,8 @@ import About from './Components/About'
 import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import Education from './Components/Education'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +23,8 @@ function App() {
     <Skills/>
     <Projects/>
     <Education/>
+    <Contact/>
+    <Footer/>
     
       
     </>
