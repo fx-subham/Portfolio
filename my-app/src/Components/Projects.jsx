@@ -8,24 +8,7 @@ function Projects() {
 
       <div className="projects-container">
         
-        <div className="project-card">
-          <div className="project-icon">👨‍💻</div>
-
-          <h3>Personal Portfolio</h3>
-
-          <p>
-            A responsive personal portfolio website built using React, HTML
-            and CSS.
-          </p>
-
-          <div className="project-tech">
-            <span>React</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-
-          <button>View Project</button>
-        </div>
+        
 
         <div className="project-card">
           <div className="project-icon">💱</div>

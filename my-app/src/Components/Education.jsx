@@ -9,7 +9,8 @@ function Education() {
       <div className="education-container">
 
         <div className="education-card">
-          <span className="education-year">2022 - Present</span>
+          
+          <span className="education-year">Expected Graduation: 2028</span>
 
           <h3>B.Tech in CSIT</h3>
 
@@ -27,6 +28,8 @@ function Education() {
           <h3>Jupiter Public School</h3>
 
           <p>Completed Class 11th and 12th under CBSE Board.</p>
+          <p className="cgpa">Academic Score:85.6%</p>
+          <p>Year of Passing: 2024</p>
         </div>
 
         <div className="education-card">
@@ -35,6 +38,8 @@ function Education() {
           <h3>Kendrapada Public School</h3>
 
           <p>Completed Class 10th under CBSE Board.</p>
+          <p>Year of Passing: 2022</p>
+          <p className="cgpa">Academic Score:78.2%</p>
         </div>
 
       </div>

@@ -34,7 +34,7 @@ function About() {
 
           <div className="info-box">
             <h3>💻 Focus</h3>
-            <p>Frontend Development</p>
+            <p>Full Stack Web Development</p>
           </div>
 
           <div className="info-box">
